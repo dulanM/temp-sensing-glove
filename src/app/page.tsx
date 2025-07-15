@@ -258,6 +258,7 @@ export default function HomePage() {
                 height={500}
                 className="rounded-lg shadow-2xl w-full h-auto"
                 priority
+                unoptimized
               />
             </div>
           </div>
@@ -379,6 +380,7 @@ export default function HomePage() {
                 width={600}
                 height={500}
                 className="rounded-lg shadow-xl w-full h-auto"
+                unoptimized
               />
             </div>
           </div>

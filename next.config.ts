@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // output: 'export',
+  output: 'export',
+  images: {
+    loader: 'custom',
+    loaderFile: './src/loader.js',
+  },
 };
 
 export default nextConfig;
