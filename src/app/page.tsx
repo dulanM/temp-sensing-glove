@@ -252,7 +252,7 @@ export default function HomePage() {
             </div>
             <div className="relative order-1 lg:order-2">
               <Image
-                src="https://firebasestorage.googleapis.com/v0/b/temp-sensing-glove.firebasestorage.app/o/image0.png?alt=media&token=9b2b96a2-6305-4599-b6ca-e574f49ec0ae"
+                src="/image0.png"
                 alt="Temperature Sensing Glove"
                 width={600}
                 height={500}
@@ -374,7 +374,7 @@ export default function HomePage() {
             </div>
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/image1.png"
                 alt="Manufacturing process of temperature sensing gloves"
                 width={600}
                 height={500}
